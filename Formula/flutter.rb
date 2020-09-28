@@ -8,7 +8,7 @@ class Flutter < Formula
     version "stable"
   end
 
-  devel do
+  head do
     url "https://github.com/flutter/flutter.git", :branch => "dev"
     version "dev"
   end
